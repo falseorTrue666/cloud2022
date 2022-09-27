@@ -1,0 +1,3 @@
+com\aiteguigu\springcloud\controller\OrderFeignController.class
+com\aiteguigu\springcloud\service\PaymentFeignService.class
+com\aiteguigu\springcloud\config\FeignConfig.class
