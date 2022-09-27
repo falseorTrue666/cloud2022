@@ -60,6 +60,11 @@ public class OrderHystrixController {
         return result;
     }
 
+    /**
+     * 单独fallBack
+     * @param id
+     * @return
+     */
     public String paymentTimeOutFallBackMethod(@PathVariable("id") Long id) {
         return "消费者80 自查 报错/服务者超时异常";
     }
